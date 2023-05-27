@@ -78,7 +78,7 @@ func main() {
 	app := fiber.New()
 
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendFile("./rumah.html")
+		return c.SendFile("./public/rumah.html")
 	})
 
 	app.Get("/ws", websocket.New(func(c *websocket.Conn) {
