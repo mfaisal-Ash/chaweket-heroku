@@ -1,12 +1,13 @@
-package kendali
+package controller
 
 import (
-	"github.com/aiteung/musik"
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/websocket/v2"
-	"github.com/sidiq200/chaweket/modul"
-	"github.com/sidiq200/chaweket-heroku/struct"
-	"log"
+	"fmt"
+    "github.com/gorilla/websocket"
+    "github.com/novalagung/gubrak/v2"
+    "io/ioutil"
+    "log"
+    "net/http"
+    "strings"
 )
 
 func Websocket(c *websocket.Conn) {

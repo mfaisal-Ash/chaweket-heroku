@@ -1,17 +1,19 @@
 package main
 
 import (
-	"github.com/aiteung/musik"
-	"github.com/gofiber/fiber/v2"
-	"github.com/sidiq200/chaweket-heroku/module"
-	"github.com/sidiq200/chaweket-heroku/url"
-	"log"
+    "fmt"
+    "github.com/gorilla/websocket"
+    gubrak "github.com/novalagung/gubrak/v2"
+    "io/ioutil"
+    "log"
+    "net/http"
+    "strings"
 )
 
-func main() {
-	go module.Run()
+type M map[string]interface{}
 
-	app := fiber.New()
-	url.Web(app)
-	log.Fatal(app.Listen(musik.Dangdut()))
-}
+const MESSAGE_NEW_USER = "New User"
+const MESSAGE_CHAT = "Chat"
+const MESSAGE_LEAVE = "Leave"
+
+var connections = make([]*WebSocketConnection, 0)
