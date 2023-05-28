@@ -2,7 +2,7 @@ package module
 
 import (
 	"fmt"
-	"github.com/rofinafiin/ws-repo/typestruct"
+	"github.com/sidiq200/chaweket-heroku/struct"
 	"log"
 )
 

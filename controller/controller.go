@@ -4,8 +4,8 @@ import (
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
-	"github.com/rofinafiin/ws-repo/module"
-	"github.com/rofinafiin/ws-repo/typestruct"
+	"github.com/sidiq200/chaweket/module"
+	"github.com/sidiq200/chaweket-heroku/struct"
 	"log"
 )
 

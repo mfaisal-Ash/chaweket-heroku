@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
-	"github.com/rofinafiin/ws-repo/module"
-	"github.com/rofinafiin/ws-repo/url"
+	"github.com/sidiq200/chaweket-heroku/module"
+	"github.com/sidiq200/chaweket-heroku/url"
 	"log"
 )
 
