@@ -1,4 +1,4 @@
-package typestruct
+package struct
 
 import "github.com/gofiber/websocket/v2"
 
