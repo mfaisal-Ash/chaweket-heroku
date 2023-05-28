@@ -1,4 +1,4 @@
-package controller
+package kendali
 
 import (
 	"github.com/aiteung/musik"
