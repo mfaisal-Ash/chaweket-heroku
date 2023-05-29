@@ -3,7 +3,7 @@ package main
 import (
     "fmt"
     "github.com/gorilla/websocket"
-    gubrak "github.com/novalagung/gubrak/v2"
+    "github.com/novalagung/gubrak/v2"
     "io/ioutil"
     "log"
     "net/http"
