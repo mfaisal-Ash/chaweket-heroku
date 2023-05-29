@@ -1,13 +1,11 @@
 package main
 
 import (
-    "fmt"
-    "github.com/gorilla/websocket"
-    "github.com/novalagung/gubrak/v2"
-    "io/ioutil"
-    "log"
-    "net/http"
-    "strings"
+    
+    "github.com/sidiq200/chaweket-heroku/typestruct"
+    "github.com/sidiq200/chaweket-heroku/module"
+    
+
 )
 
 type M map[string]interface{}
